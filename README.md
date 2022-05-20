@@ -18,6 +18,7 @@ Please download relevant data files from this [folder](https://drive.google.com/
 
 The BiasBios data was crawled using the original scripts released by the creators of the BiosBias Dataset (De-Arteaga et al., 2019) and the Multilingual BiosBias Dataset (Zhao et al., 2020) - please refer to the paper for more details.
 Note that we have removed the text itself from the data.
+
 You may also download pretrained INLP projection matrices and additional data for reproducing the results easily and quickly.
 
 ### Details
@@ -28,7 +29,9 @@ For French, use **src/data/run_bias_bios_fr.sh**
 For Spanish, use **src/data/run_bias_bios_es.sh**
 
 ## Train INLP
-Use the script **src/train_inlp.py**
+You can use the pretrained INLP matrices under the data directory (as detailed above).
+
+To train from scratch, use the script **src/train_inlp.py**
 Example:
 ```
 python train_inlp.py --lang EN --iters 300 --type avg --output_path <your-output-path> 
