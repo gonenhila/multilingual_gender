@@ -30,7 +30,8 @@ For Spanish, use **src/data/run_bias_bios_es.sh**
 ## Train INLP
 Use the script **src/train_inlp.py**
 Example:
-```python train_inlp.py --lang EN --iters 300 --type avg --output_path <your-output-path> 
+```
+python train_inlp.py --lang EN --iters 300 --type avg --output_path <your-output-path> 
 ```
 ## Explained variance of PCA experiment (+ similarity between classifiers)
 
