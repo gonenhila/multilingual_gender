@@ -21,7 +21,6 @@ Note that we have removed the text itself from the data.
 
 You may also download pretrained INLP projection matrices and additional data for reproducing the results easily and quickly.
 
-### Details
 
 ## Extract representations for the datasets
 For English, use **src/data/run_bias_bios.sh**
